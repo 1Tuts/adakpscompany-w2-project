@@ -32,4 +32,4 @@ Please note that adakpsco.ir is a curated site and that we reserve the right to 
 
 The [adakpsco.ir](http://adakpsco.ir) code and website is released under a [MIT License](http://opensource.org/licenses/MIT).
 
-Produced by 1schools students network (winter - summer 2012)
+Produced by 1schools students network (autumn - winter 2012)
