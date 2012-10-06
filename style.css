@@ -5,8 +5,7 @@
 
 /*----------*/
 div.container {
-	height	: 1138px;
-	outline	: 2px dashed red;
+	height	: 1138px; 	
 }
 div.container div.logo {
 	background-image: url(images/logo1.png);
@@ -51,7 +50,7 @@ div.container div.boxs {
 
 div.container div.content>section {
 	background-color : #0c3e58;
-	opacity: 0.6;
+	opacity: 0.9;
 }
 div.container div.content section.box4>div {
 	background-color : #0c3e58;
@@ -60,7 +59,7 @@ div.container div.content section.box4>div {
 
 div.container div.content section.box1 
 div.box1 {
-	background-image: url(data:images/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAB50RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNS4xqx9I6wAAABZ0RVh0Q3JlYXRpb24gVGltZQAwMS8yMS8xMRTK2QYAAABYSURBVGiB7c8BDQAhEMCw45XhXxUmSL4hq4JtzcyeB3x/B9zSiKYRTSOaRjSNaBrRNKJpRNOIphFNI5pGNI1oGtE0omlE04imEU0jmkY0jWga0TSiaURzAKKlAKRWtxKCAAAAAElFTkSuQmCC) 0 0 repeat;
+	background-image: url(gallery/slide04.jpg);
 	height	: 272px;
 }
 div.container div.content section.box1 
@@ -71,6 +70,7 @@ div.box2 {
 
 div.container div.content section.box2 
 div.box1 {
+	background-image: url(gallery/slide01.jpg);
 	height	: 272px;
 }
 div.container div.content section.box2 
@@ -90,6 +90,7 @@ div.box1  {
 
 }
 
+
 div.container div.content section.box4 
 div.box1 ul li a {
 	color: white;
@@ -97,14 +98,16 @@ div.box1 ul li a {
 	text-decoration: none;
 	font-family: "NewCicleFina";	
 	font-size: 23px;
-	padding:6px 15px;
+	padding:8px 70px;
 	display:block;
+	padding-left: 20px;
 }
 
 div.container div.content section.box4 
 div.box1 ul li a:hover {
-	-webkit-transition: opacity 0.2s linear;
+	-webkit-transition: opacity 0.2s linear ;
 	opacity: 1;
+	border: 1px solid white;
 }
 div.container div.content section.box4 
 div.box2 {
@@ -119,7 +122,6 @@ div.box2 {
 }
 /*--------------------*/
 div.container div.boxs > section {
-	outline	: 1px dashed red ;
 	width	: 198px;
 	margin-left	: 6px;
 }
