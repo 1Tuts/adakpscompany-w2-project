@@ -1,0 +1,181 @@
+/*
+
+----------@ 1|_4 @----------
+*/
+
+/*----------*/
+div.container {
+	height	: 1138px;
+	outline	: 2px dashed red;
+}
+div.container div.logo {
+	background-image: url(images/logo1.png);
+	width: 100px;
+}
+
+/*-------menu--------*/ 
+div.container header {
+	font-family: "NewCicleFina";	
+}
+
+div.container header nav menu li a {
+	text-decoration: none;
+	font-size: 24px;
+	color: white;
+	opacity: 0.6;	
+}
+div.container header nav
+ menu li a:hover {
+	-webkit-transition: opacity 0.2s linear;
+	opacity: 1;
+}
+div.container header div.serch {
+	outline: 1px solid white;
+	color: white;
+	opacity: 0.6;
+}
+/*-------------------*/
+div.container div.content {
+	height	: 890px;
+
+}
+
+div.container div.boxs {
+
+	height	: 890px;
+	width	: 410px;
+	margin-left	: 20px;
+	
+}
+/*---------------------content-----*/
+
+div.container div.content>section {
+	background-color : #0c3e58;
+	opacity: 0.6;
+}
+div.container div.content section.box4>div {
+	background-color : #0c3e58;
+}
+
+
+div.container div.content section.box1 
+div.box1 {
+	background-image: url(data:images/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAB50RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNS4xqx9I6wAAABZ0RVh0Q3JlYXRpb24gVGltZQAwMS8yMS8xMRTK2QYAAABYSURBVGiB7c8BDQAhEMCw45XhXxUmSL4hq4JtzcyeB3x/B9zSiKYRTSOaRjSNaBrRNKJpRNOIphFNI5pGNI1oGtE0omlE04imEU0jmkY0jWga0TSiaURzAKKlAKRWtxKCAAAAAElFTkSuQmCC) 0 0 repeat;
+	height	: 272px;
+}
+div.container div.content section.box1 
+div.box2 {
+	margin-top: 5px;
+	height: 29px;
+}
+
+div.container div.content section.box2 
+div.box1 {
+	height	: 272px;
+}
+div.container div.content section.box2 
+div.box2 {
+	margin-top: 5px;
+	height: 29px;
+}
+div.container div.content section.box3 {
+	margin-top: 10px;
+	height: 30px;
+}
+div.container div.content section.box4 
+div.box1  {	
+	width	: 156px;
+	height	: 165px;
+	margin-top: 20px;
+
+}
+
+div.container div.content section.box4 
+div.box1 ul li a {
+	color: white;
+	opacity: 0.6;
+	text-decoration: none;
+	font-family: "NewCicleFina";	
+	font-size: 23px;
+	padding:6px 15px;
+	display:block;
+}
+
+div.container div.content section.box4 
+div.box1 ul li a:hover {
+	-webkit-transition: opacity 0.2s linear;
+	opacity: 1;
+}
+div.container div.content section.box4 
+div.box2 {
+	background-image : url(images/demo_apps.png);
+	background-size	 : 90%;
+	width	: 314px;
+	height	: 165px;
+	margin-top	: 20px;
+	background-repeat	: no-repeat;
+	background-position	: center center;
+
+}
+/*--------------------*/
+div.container div.boxs > section {
+	outline	: 1px dashed red ;
+	width	: 198px;
+	margin-left	: 6px;
+}
+
+div.container div.boxs section.box1 {
+	background-color	: #4690ad;
+	background-image	: url(images/icon_gallery.png);
+	background-repeat	: no-repeat;
+	background-position	: center center;
+}
+
+div.container div.boxs section.box2 {
+	background-color	: #bb5877;
+	background-image	: url(images/icon_contact.png);
+	background-repeat	: no-repeat;
+	background-position	: center center;
+
+}
+
+div.container div.boxs section.box3 {
+	background-color	: #c9007a;
+	background-image	: url(images/download.png);
+	background-repeat	: no-repeat;
+	background-position	: center top;
+
+}
+
+div.container div.boxs section.box4 {
+	background-color	: #4891af;
+	background-image	: url(images/download.png);
+	background-repeat	: no-repeat;
+	background-position	: center top;
+
+}
+
+
+div.container div.boxs section.box5 {
+	background-image	: url(images/autumn.jpg);
+	background-repeat	: no-repeat;
+	background-position	: center top;
+
+}
+
+div.container div.boxs section.box6 {
+	background-image	: url(images/aboutus.jpg);
+	background-repeat	: no-repeat;
+	background-position	: center top;
+	font-size	: 20px;
+	color       : white;
+	text-align	: center;
+}
+
+div.container div.boxs section.box7 {
+	background-color	: #4891af;
+	background-image	: url(images/icon_weather.png);
+	background-repeat	: no-repeat;
+	background-position	: center center;
+
+}
