@@ -97,7 +97,7 @@ div.box1 ul li a {
 	text-decoration: none;
 	font-family: "NewCicleFina";	
 	font-size: 23px;
-	padding:8px 70px;
+	padding:6px 70px;
 	display:block;
 	padding-left: 20px;
 }
@@ -140,7 +140,7 @@ div.container div.boxs section.box2 {
 
 div.container div.boxs section.box3 {
 	background-color	: #c9007a;
-	background-image	: url(images/download.png);
+	background-image	: url(images/logo.png);
 	background-repeat	: no-repeat;
 	background-position	: center top;
 
