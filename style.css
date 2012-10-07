@@ -49,13 +49,12 @@ div.container div.boxs {
 /*---------------------content-----*/
 
 div.container div.content>section {
-	background-color : #0c3e58;
-	opacity: 0.9;
+	background: url(images/bacc.png) 0 0 repeat;
 }
 div.container div.content section.box4>div {
-	background-color : #0c3e58;
-}
+	background: url(images/bg.png) 0 0 repeat;
 
+}
 
 div.container div.content section.box1 
 div.box1 {
@@ -111,13 +110,11 @@ div.box1 ul li a:hover {
 }
 div.container div.content section.box4 
 div.box2 {
-	background-image : url(images/demo_apps.png);
-	background-size	 : 90%;
+
+	background: url(images/bacc.png) 0 0 repeat;
 	width	: 314px;
 	height	: 165px;
 	margin-top	: 20px;
-	background-repeat	: no-repeat;
-	background-position	: center center;
 
 }
 /*--------------------*/
