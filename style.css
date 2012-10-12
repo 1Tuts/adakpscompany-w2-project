@@ -126,6 +126,8 @@ div.container div.boxs > section {
 }
 
 div.container div.boxs section.box1 {
+	width	: 198px;
+	margin-left	: 6px;
 	background-color	: #4690ad;
 	background-image	: url(images/icon_gallery.png);
 	background-repeat	: no-repeat;
@@ -133,6 +135,8 @@ div.container div.boxs section.box1 {
 }
 
 div.container div.boxs section.box2 {
+	width	: 198px;
+	margin-left	: 6px;
 	background-color	: #bb5877;
 	background-image	: url(images/icon_contact.png);
 	background-repeat	: no-repeat;
@@ -141,10 +145,12 @@ div.container div.boxs section.box2 {
 }
 
 div.container div.boxs section.box3 {
-	background-color	: #c9007a;
-	background-image	: url(images/logo.png);
+	width	: 402px;
+	margin-left	: 6px;
+	background-color	: #4690ad;
+	background-image	: url(images/logo.png) ;
 	background-repeat	: no-repeat;
-	background-position	: center top;
+	background-position	: right top;
 
 }
 
