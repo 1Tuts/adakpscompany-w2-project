@@ -7,13 +7,12 @@ body {
 }
 /*----------*/
 div.container {
-	height	: 1138px; 	
+	height	: 1500px; 	
 }
 div.container div.logo {
 	background-image: url(images/logo1.png);
 	width: 100px;
 }
-
 /*-------menu--------*/ 
 div.container header {
 	font-family: "NewCicleFina";	
@@ -50,11 +49,16 @@ div.container header nav menu li menu {
 div.container header nav menu li menu li>a {
 	outline: 1px solid white;
 }
+
 div.container header nav menu li menu li
  a:hover{
 	-webkit-transition: opacity 0.2s linear ;
 	opacity: 1;
 	outline: 1px solid white;
+}
+
+div.container header div {
+	opacity:0.5;
 }
 /*-------------------*/
 div.container div.content {
@@ -120,7 +124,7 @@ div.box1 ul li a {
 	text-decoration: none;
 	font-family: "NewCicleFina";	
 	font-size: 23px;
-	padding:9px 70px;
+	padding:8px 70px;
 	display:block;
 	padding-left: 20px;
 }
@@ -206,4 +210,7 @@ div.container div.boxs section.box7 {
 	background-repeat	: no-repeat;
 	background-position	: center center;
 
+}
+div.container div.boxs section.box8 {
+	outline: 1px solid red;
 }
