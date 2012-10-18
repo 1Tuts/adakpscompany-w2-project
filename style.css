@@ -1,216 +1,160 @@
-/*
-
-----------@ 1|_4 @----------
-*/
 body {
 	background-image: url(images/background.svg);
+	background-size: cover;
 }
-/*----------*/
-div.container {
-	height	: 1500px; 	
+div.container{
+	background-image	: url(images/home.jpg);
+	background-repeat	: no-repeat;
+	min-height 	: 1148px;
 }
-div.container div.logo {
-	background-image: url(images/logo1.png);
-	width: 100px;
-}
-/*-------menu--------*/ 
+
+/*---------------------*/
 div.container header {
-	font-family: "NewCicleFina";	
+	outline: 1px dashed red ;
+}
+div.container header div.logo {
+	outline: 1px dashed red ;
+}
+div.container header nav {
+	outline: 1px dashed red ;
+}
+div.container header div.search {
+	outline: 1px dashed red ;
+	width		: 158px;
+	margin-right: 2px;
+	margin-top	: 47px;
+}
+/*---------------------*/
+
+div.container div.content1{
+	outline	: 1px dashed red ;
+	width	: 472px;
+	min-height	: 865px;
+	margin-left	: 37px;
+}
+div.container div.content1 div>section {
+	outline	: 1px dashed red;
 }
 
-div.container header nav menu li a {
-	text-decoration: none;
-	font-size: 24px;
-	color: white;
-	opacity: 0.6;	
+div.container div.content1 div.box1{
+	outline	: 1px dashed red ;	
+	width	: 472px;
 }
-div.container header nav
- menu li a:hover {
-	-webkit-transition: opacity 0.2s linear;
-	opacity: 1;
+div.container div.content1 div.box1 section.image {
+	width	: 174px;
+	min-height 	: 174px;
+	margin-left	: 17px;
+	margin-top	:6px;
 }
-div.container header div.serch {
-	outline: 1px solid white;
-	color: white;
-	opacity: 0.6;
-}
-div.container header nav
- menu li:hover menu{
- 	display: block;
-
- }
-div.container header nav menu li menu {
-	background-image:url(images/menu1.png);
-	z-index: 1000;
-	padding:15px 10px;
-	display: none; 
-	margin-top: 10px;
-}
-div.container header nav menu li menu li>a {
-	outline: 1px solid white;
-}
-
-div.container header nav menu li menu li
- a:hover{
-	-webkit-transition: opacity 0.2s linear ;
-	opacity: 1;
-	outline: 1px solid white;
-}
-
-div.container header div {
-	opacity:0.5;
-}
-/*-------------------*/
-div.container div.content {
-	height	: 890px;
-
-}
-
-div.container div.boxs {
-
-	height	: 890px;
-	width	: 410px;
-	margin-left	: 20px;
-	
-}
-/*---------------------content-----*/
-
-div.container div.content>section {
-	background: url(images/bacc.png) 0 0 repeat;
-}
-div.container div.content section.box4>div {
-	background: url(images/bg.png) 0 0 repeat;
-
-}
-
-div.container div.content section.box1 
-div.box1 {
-	background-image: url(gallery/slide04.jpg);
-	height	: 272px;
-}
-div.container div.content section.box1 
-div.box2 {
-	margin-top: 5px;
-	height: 29px;
-}
-
-div.container div.content section.box2 
-div.box1 {
-	background-image: url(gallery/slide01.jpg);
-	height	: 272px;
-}
-div.container div.content section.box2 
-div.box2 {
-	margin-top: 5px;
-	height: 29px;
-}
-div.container div.content section.box3 {
-	margin-top: 10px;
-	height: 30px;
-}
-div.container div.content section.box4 
-div.box1  {	
-	width	: 156px;
-	height	: 165px;
-	margin-top: 20px;
-
+div.container div.content1 div.box1 section.text {
+	width	: 264px;
+	min-height  : 174px;
+	margin-left	: 10px;
+	margin-top	: 6px;
 }
 
 
-div.container div.content section.box4 
-div.box1 ul li a {
-	color: white;
-	opacity: 0.6;
-	text-decoration: none;
-	font-family: "NewCicleFina";	
-	font-size: 23px;
-	padding:8px 70px;
-	display:block;
-	padding-left: 20px;
+
+div.container div.content1 div.box2{
+	outline	: 1px dashed red ;
+	width	: 472px;	
+	margin-top : 20px;
 }
 
-div.container div.content section.box4 
-div.box1 ul li a:hover {
-	-webkit-transition: opacity 0.2s linear ;
-	opacity: 1;
-	outline: 1px solid white;
+div.container div.content1 div.box2 section.image {
+	width	: 174px;
+	min-height  : 174px;
+	margin-left	: 17px;
+	margin-top	: 6px;
 }
-div.container div.content section.box4 
-div.box2 {
+div.container div.content1 div.box2 section.text {
+	width	: 264px;
+	min-height : 174px;
+	margin-left	: 10px;
+	margin-top	:6px;
+}
 
-	background: url(images/bacc.png) 0 0 repeat;
-	width	: 314px;
-	height	: 165px;
+div.container div.content1 div.box3{
+	outline	: 1px dashed red ;
+	width	: 472px;
+	margin-top	: 8px;	
+}
+div.container div.content1 div.box4{
+	outline	: 1px dashed red ;	
+	width	: 472px;
+	min-height  : 167px;
 	margin-top	: 20px;
-
 }
-/*--------------------*/
-div.container div.boxs > section {
-	width	: 198px;
-	margin-left	: 6px;
+div.container div.content1 div.box4 menu {
+	outline	: 1px dashed red;
+	width	: 160px; 
+	min-height : 167px;
 }
-
-div.container div.boxs section.box1 {
-	width	: 198px;
-	margin-left	: 6px;
-	background-color	: #4690ad;
-	background-image	: url(images/icon_gallery.png);
-	background-repeat	: no-repeat;
-	background-position	: center center;
-}
-
-div.container div.boxs section.box2 {
-	width	: 198px;
-	margin-left	: 6px;
-	background-color	: #bb5877;
-	background-image	: url(images/icon_contact.png);
-	background-repeat	: no-repeat;
-	background-position	: center center;
-
-}
-
-div.container div.boxs section.box3 {
-
-	margin-left	: 6px;
-	background-color	: #4690ad;
-	background-image	: url(images/logo.png) ;
-	background-repeat	: no-repeat;
-	background-position	: right top;
-
-}
-
-div.container div.boxs section.box4 {
-	background-color	: #4891af;
-	background-image	: url(images/download.png);
-	background-repeat	: no-repeat;
-	background-position	: center top;
-
+div.container div.content1 div.box4 section {
+	width	: 312px;
+	min-height : 167px;
 }
 
 
-div.container div.boxs section.box5 {
-	background-image	: url(images/autumn.jpg);
-	background-repeat	: no-repeat;
-	background-position	: center top;
-
+/*---------------------*/
+div.container div>div{
+	background-color	: black;
+	opacity	: .4;
 }
-
-div.container div.boxs section.box6 {
-	background-image	: url(images/aboutus.jpg);
-	background-repeat	: no-repeat;
-	background-position	: center top;
-	font-size	: 20px;
-	color       : white;
-	text-align	: center;
+div.container div.content2 {
+	outline	: 1px dashed red ;
+	width	: 196px;
+	min-height	: 785px;
+	margin-left	: 26px;
 }
-
-div.container div.boxs section.box7 {
-	background-color	: #4891af;
-	background-image	: url(images/icon_weather.png);
-	background-repeat	: no-repeat;
-	background-position	: center center;
-
+div.container div.content2 div.box1 {
+	outline	: 1px dashed red ;
+	width	: 196px;
+	min-height	: 196px;
 }
-div.container div.boxs section.box8 {
-	outline: 1px solid red;
+div.container div.content2 div.box2 {
+	outline	: 1px dashed red ;
+	width	: 196px;
+	min-height	: 401px;
+	margin-top	: 10px;
+}
+div.container div.content2 div.box3 {
+	outline	: 1px dashed red ;
+	width	: 196px;
+	min-height	:196px;
+	margin-top	: 10px;			
+}
+/*---------------------*/
+div.container div.content3 {
+	outline	: 1px dashed red ;	
+	width	: 196px;
+	min-height	: 785px;
+	margin-left	: 10px;
+}
+div.container div.content3 div.box1 {
+	outline	: 1px dashed red ;
+	width	: 196px;
+	min-height	: 196px;
+}
+div.container div.content3 div.box2 {
+	outline	: 1px dashed red ;
+	width	: 196px;
+	min-height	: 196px;
+	margin-top	: 10px;
+}
+div.container div.content3 div.box3 {
+	outline	: 1px dashed red ;
+	width	: 196px;
+	min-height	: 196px;
+	margin-top	: 10px;			
+}
+div.container div.content3 div.box4 {
+	outline: 1px dashed red ;
+	width	: 196px;
+	min-height	: 196px;
+	margin-top	: 10px;			
+}
+/*----------------------------*/
+div.container footer {
+	outline	: 1px dashed red;
 }
