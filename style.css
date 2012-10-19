@@ -57,14 +57,11 @@ div.container header div input.search {
 /*---------------------*/
 
 div.container div.content1{
-	outline	: 1px dashed red ;
 	width	: 472px;
 	min-height	: 862px;
 	margin-left	: 37px;
 }
-div.container div.content1 div>section {
-	outline	: 1px dashed red;
-}
+
 
 div.container div.content1 div.box1{
 	outline	: 1px dashed red ;	
@@ -78,7 +75,7 @@ div.container div.content1 div.box1 section.head {
 	src:url('font/new_cicle_fina_italic-webfont.ttf');
 }
 div.container div.content1 div.box1 section.head div {
-	margin: 10px;
+	margin:30px 0px 0px 20px;
 }
 div.container div.content1 div.box1 section.image {
 	width	: 174px;
@@ -93,6 +90,11 @@ div.container div.content1 div.box1 section.text {
 	min-height  : 174px;
 	margin-left	: 10px;
 	margin-top	: 6px;
+	font-family: myFirstFont; 
+	src:url('font/new_cicle_fina_italic-webfont.ttf')
+	font-family: "NewCicleFina";
+	color: white;
+	opacity: .9;
 }
 
 
@@ -110,7 +112,7 @@ div.container div.content1 div.box2 section.head {
 	src:url('font/new_cicle_fina_italic-webfont.ttf');
 }
 div.container div.content1 div.box2 section.head div {
-	margin: 10px;
+	margin:30px 0px 0px 20px;
 }
 div.container div.content1 div.box2 section.image {
 	width	: 174px;
@@ -125,6 +127,11 @@ div.container div.content1 div.box2 section.text {
 	min-height : 174px;
 	margin-left	: 10px;
 	margin-top	:6px;
+	font-family: myFirstFont; 
+	src:url('font/new_cicle_fina_italic-webfont.ttf')
+	font-family: "NewCicleFina";
+	color: white;
+	opacity: .9;	
 }
 
 div.container div.content1 div.box3{
