@@ -64,7 +64,6 @@ div.container div.content1{
 
 
 div.container div.content1 div.box1{
-	outline	: 1px dashed red ;	
 	width	: 675px;
 	min-height: 813px;
 }
@@ -108,7 +107,6 @@ div.container div.content2 {
 	margin-left	: 26px;
 }
 div.container div.content2 div.box1 {
-	outline	: 1px dashed red ;
 	width	: 196px;
 	min-height	: 196px;
 	background-image	: url(images/icon_gallery.png);
@@ -118,7 +116,6 @@ div.container div.content2 div.box1 {
 }
 
 div.container div.content2 div.box2 {
-	outline	: 1px dashed red ;
 	width	: 196px;
 	min-height	: 401px;
 	margin-top	: 10px;
@@ -141,7 +138,6 @@ div.container div.content2 div.box2 div.text {
 }
 
 div.container div.content2 div.box3 {
-	outline	: 1px dashed red ;
 	width	: 196px;
 	min-height	:196px;
 	margin-top	: 10px;			
