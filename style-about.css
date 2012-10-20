@@ -57,15 +57,16 @@ div.container header div input.search {
 /*---------------------*/
 
 div.container div.content1{
-	width	: 472px;
-	min-height	: 862px;
+	width	: 675px;
+	min-height	: 813px;
 	margin-left	: 37px;
 }
 
 
 div.container div.content1 div.box1{
 	outline	: 1px dashed red ;	
-	width	: 472px;
+	width	: 675px;
+	min-height: 813px;
 }
 div.container div.content1 div.box1 section.head {
 	color: white ;
@@ -86,7 +87,7 @@ div.container div.content1 div.box1 section.image {
 	background-size: cover;
 }
 div.container div.content1 div.box1 section.text {
-	width	: 264px;
+	width	: 370px;
 	min-height  : 174px;
 	margin-left	: 10px;
 	margin-top	: 6px;
@@ -97,94 +98,13 @@ div.container div.content1 div.box1 section.text {
 	opacity: .9;
 }
 
-
-
-div.container div.content1 div.box2{
-	outline	: 1px dashed red ;
-	width	: 472px;	
-	margin-top : 20px;
-	background-color	:rgba(0,0,0,0.6)
-}
-div.container div.content1 div.box2 section.head {
-	color: white ;
-	opacity: .8;
-	font-size: 25px;
-	font-family: myFirstFont; 
-	src:url('font/new_cicle_fina_italic-webfont.ttf');
-}
-div.container div.content1 div.box2 section.head div {
-	margin:30px 0px 0px 20px;
-}
-div.container div.content1 div.box2 section.image {
-	width	: 174px;
-	min-height  : 174px;
-	margin-left	: 17px;
-	margin-top	: 6px;
-	background-image: url(images/Falseceilinggrid.jpg);
-	background-size: cover;
-}
-div.container div.content1 div.box2 section.text {
-	width	: 264px;
-	min-height : 174px;
-	margin-left	: 10px;
-	margin-top	:6px;
-	font-family: myFirstFont; 
-	src:url('font/new_cicle_fina_italic-webfont.ttf')
-	font-family: "NewCicleFina";
-	color: white;
-	opacity: .9;	
-}
-
-div.container div.content1 div.box3{
-	outline	: 1px dashed red ;
-	width	: 472px;
-	margin-top	: 8px;	
-	background-color	:rgba(0,0,0,0.6)
-}
-div.container div.content1 div.box4{
-	outline	: 1px dashed red ;	
-	width	: 472px;
-	min-height  : 164px;
-	margin-top	: 20px;
-	background-color	:rgba(0,0,0,0.6)
-}
-div.container div.content1 div.box4 menu {
-	width	: 160px; 
-	min-height : 164px;
-}
-div.container div.content1 div.box4 menu
-li a {
-	color: white;
-	opacity: 0.6;
-	text-decoration: none;
-	font-family: myFirstFont; 
-	src:url('font/new_cicle_fina_italic-webfont.ttf');	
-	font-size: 23px;
-	padding:9px 70px;
-	display:block;
-	padding-left: 20px;
-}
-
-div.container div.content1 div.box4 menu
- li a:hover {
-	-webkit-transition: opacity 0.2s linear ;
-	opacity: 1;
-	outline: 1px solid white;
-}
-div.container div.content1 div.box4 section {
-	width	: 312px;
-	min-height : 164px;
-}
-
-
 /*---------------------*/
 div.container div>div {
 	background-color	:rgba(0,0,0,0.6)
 }
 div.container div.content2 {
-	outline	: 1px dashed red ;
 	width	: 196px;
-	min-height	: 785px;
+	min-height	: 813px;
 	margin-left	: 26px;
 }
 div.container div.content2 div.box1 {
@@ -196,7 +116,6 @@ div.container div.content2 div.box1 {
 	background-position	: center center;
 
 }
-
 
 div.container div.content2 div.box2 {
 	outline	: 1px dashed red ;
@@ -231,53 +150,8 @@ div.container div.content2 div.box3 {
 	background-position	: center center;
 }
 
-/*---------------------*/
-div.container div.content3 {
-	outline	: 1px dashed red ;	
-	width	: 196px;
-	min-height	: 785px;
-	margin-left	: 10px;
-}
-div.container div.content3 div.box1 {
-	outline	: 1px dashed red ;
-	width	: 196px;
-	min-height	: 196px;
-	background-image	: url(images/icon_contact.png);
-	background-repeat	: no-repeat;
-	background-position	: center center;
 
-}
-div.container div.content3 div.box2 {
-	outline	: 1px dashed red ;
-	width	: 196px;
-	min-height	: 196px;
-	margin-top	: 10px;
-	background-image	: url(images/icon_contact.png);
-	background-repeat	: no-repeat;
-	background-position	: center center;
-}
-div.container div.content3 div.box3 {
-	outline	: 1px dashed red ;
-	width	: 196px;
-	min-height	: 196px;
-	margin-top	: 10px;			
-	background-image	: url(images/icon_contact.png);
-	background-repeat	: no-repeat;
-	background-position	: center center;
-}
-div.container div.content3 div.box4 {
-	outline: 1px dashed red ;
-	width	: 196px;
-	min-height	: 196px;
-	margin-top	: 10px;			
-	background-image	: url(images/icon_weather.png);
-	background-repeat	: no-repeat;
-	background-position	: center center;
-}
 /*----------------------------*/
 div.container footer {
 	outline	: 1px dashed red;
-}
-div.container footer p {
-	text-align:5px;
 }
