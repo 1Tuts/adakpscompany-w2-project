@@ -147,7 +147,7 @@ div.container div.content1 div.box4{
 div.container div.content1 div.box4 menu {
 	width	: 160px; 
 	min-height : 164px;
-		background-color	:rgba(0,0,0,0.4)
+	background-color	:rgba(0,0,0,0.4)
 }
 div.container div.content1 div.box4 menu
 li a {
@@ -189,13 +189,31 @@ div.container div.content2 {
 div.container div.content2 div.box1 {
 	width	: 196px;
 	min-height	: 196px;
-	background-image	: url(images/icon_gallery.png);
-	background-repeat	: no-repeat;
-	background-position	: center center;
+
 	background-color: #418da9;
 
 }
 
+div.container div.content2 div.box1 div.image {
+	width: 196px;
+	height:120px;
+	background-image	: url(images/icon_gallery.png);
+	background-repeat	: no-repeat;
+	background-position	: center center;
+}
+div.container div.content2 div.box1 div.text a {
+	color: white;
+	opacity: 0.6;
+	font-family: myFirstFont; 
+	src:url('font/new_cicle_fina_italic-webfont.ttf');	
+	font-size: 40px;
+	text-decoration: none;
+	padding: 45px;
+}
+div.container div.content2 div.box1 div.text a:hover {
+	opacity: 1;
+
+}
 
 div.container div.content2 div.box2 {
 	width	: 196px;
@@ -240,10 +258,30 @@ div.container div.content3 {
 div.container div.content3 div.box1 {
 	width	: 196px;
 	min-height	: 196px;
+	background-color: #bb5877;
+
+
+}
+div.container div.content3 div.box1 div.image {
+	width: 196px;
+	height: 120px;
 	background-image	: url(images/icon_contact.png);
 	background-repeat	: no-repeat;
 	background-position	: center center;
-	background-color: #bb5877;
+
+}
+
+div.container div.content3 div.box1 div.text a {
+	color: white;
+	opacity: 0.6;
+	font-family: myFirstFont; 
+	src:url('font/new_cicle_fina_italic-webfont.ttf');	
+	font-size: 40px;
+	text-decoration: none;
+	padding: 30px;
+}
+div.container div.content3 div.box1 div.text a:hover {
+	opacity: 1;
 
 }
 div.container div.content3 div.box2 {

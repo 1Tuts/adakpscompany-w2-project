@@ -65,7 +65,8 @@ div.container div.content1{
 
 div.container div.content1 div.box1{
 	width	: 675px;
-	min-height: 813px;
+	min-height: 500px;
+	background-color	:rgba(0,0,0,0.4)
 }
 div.container div.content1 div.box1 section.head {
 	color: white ;
@@ -98,20 +99,36 @@ div.container div.content1 div.box1 section.text {
 }
 
 /*---------------------*/
-div.container div>div {
-	background-color	:rgba(0,0,0,0.6)
-}
+
 div.container div.content2 {
 	width	: 196px;
 	min-height	: 813px;
 	margin-left	: 26px;
 }
 div.container div.content2 div.box1 {
-	width	: 196px;
+	width 	: 196px;
 	min-height	: 196px;
+	background-color: #418da9;
+}
+
+div.container div.content2 div.box1 div.image {
+	width: 196px;
+	height:120px;
 	background-image	: url(images/icon_gallery.png);
 	background-repeat	: no-repeat;
 	background-position	: center center;
+}
+div.container div.content2 div.box1 div.text a {
+	color   : white;
+	opacity	: 0.6;
+	font-family	: myFirstFont; 
+	src:url('font/new_cicle_fina_italic-webfont.ttf');	
+	font-size	: 40px;
+	text-decoration : none;
+	padding : 45px;
+}
+div.container div.content2 div.box1 div.text a:hover {
+	opacity	: 1;
 
 }
 
@@ -119,6 +136,7 @@ div.container div.content2 div.box2 {
 	width	: 196px;
 	min-height	: 401px;
 	margin-top	: 10px;
+	background-color: #5197b5;
 }
 div.container div.content2 div.box2 div.image {
 	width: 196px;
@@ -126,6 +144,7 @@ div.container div.content2 div.box2 div.image {
 	background-image	: url(images/logop.png) ;
 	background-repeat	: no-repeat;
 	background-position	: center top;
+	background-color: #5197b5;
 
 }
 div.container div.content2 div.box2 div.text {
@@ -135,8 +154,8 @@ div.container div.content2 div.box2 div.text {
 	src:url('font/new_cicle_fina_italic-webfont.ttf');	
 	color: white;
 	opacity: .9;
+	background-color: #5197b5;
 }
-
 div.container div.content2 div.box3 {
 	width	: 196px;
 	min-height	:196px;
