@@ -65,6 +65,7 @@ div.container div.content1{
 
 div.container div.content1 div.box1{
 	width	: 472px;
+		background-color	:rgba(0,0,0,0.4)
 }
 div.container div.content1 div.box1 section.head {
 	color: white ;
@@ -101,7 +102,7 @@ div.container div.content1 div.box1 section.text {
 div.container div.content1 div.box2{
 	width	: 472px;	
 	margin-top : 20px;
-	background-color	:rgba(0,0,0,0.6)
+	background-color	:rgba(0,0,0,0.4)
 }
 div.container div.content1 div.box2 section.head {
 	color: white ;
@@ -136,17 +137,17 @@ div.container div.content1 div.box2 section.text {
 div.container div.content1 div.box3{
 	width	: 472px;
 	margin-top	: 8px;	
-	background-color	:rgba(0,0,0,0.6)
+	background-color	:rgba(0,0,0,0.4)
 }
 div.container div.content1 div.box4{	
 	width	: 472px;
 	min-height  : 164px;
 	margin-top	: 20px;
-	background-color	:rgba(0,0,0,0.6)
 }
 div.container div.content1 div.box4 menu {
 	width	: 160px; 
 	min-height : 164px;
+		background-color	:rgba(0,0,0,0.4)
 }
 div.container div.content1 div.box4 menu
 li a {
@@ -156,26 +157,29 @@ li a {
 	font-family: myFirstFont; 
 	src:url('font/new_cicle_fina_italic-webfont.ttf');	
 	font-size: 23px;
-	padding:9px 70px;
+	padding:7px 50px;
 	display:block;
-	padding-left: 20px;
+	margin-top: 10px 10px;
+	padding-left: 10px;
+	-webkit-transition: opacity 0.2s linear ;
 }
 
 div.container div.content1 div.box4 menu
  li a:hover {
-	-webkit-transition: opacity 0.2s linear ;
+	
 	opacity: 1;
 	outline: 1px solid white;
 }
 div.container div.content1 div.box4 section {
 	width	: 312px;
 	min-height : 164px;
+	background-color	:rgba(0,0,0,0.5 )
 }
 
 
 /*---------------------*/
 div.container div>div {
-	background-color	:rgba(0,0,0,0.6)
+
 }
 div.container div.content2 {
 	width	: 196px;
@@ -188,6 +192,7 @@ div.container div.content2 div.box1 {
 	background-image	: url(images/icon_gallery.png);
 	background-repeat	: no-repeat;
 	background-position	: center center;
+	background-color: #418da9;
 
 }
 
@@ -196,6 +201,7 @@ div.container div.content2 div.box2 {
 	width	: 196px;
 	min-height	: 401px;
 	margin-top	: 10px;
+	background-color: #5197b5;
 }
 div.container div.content2 div.box2 div.image {
 	width: 196px;
@@ -203,6 +209,7 @@ div.container div.content2 div.box2 div.image {
 	background-image	: url(images/logop.png) ;
 	background-repeat	: no-repeat;
 	background-position	: center top;
+	background-color: #5197b5;
 
 }
 div.container div.content2 div.box2 div.text {
@@ -212,13 +219,14 @@ div.container div.content2 div.box2 div.text {
 	src:url('font/new_cicle_fina_italic-webfont.ttf');	
 	color: white;
 	opacity: .9;
+	background-color: #5197b5;
 }
 
 div.container div.content2 div.box3 {
 	width	: 196px;
 	min-height	:196px;
 	margin-top	: 10px;			
-	background-image	: url(images/download.png);
+	background-image	: url(images/about.jpg);
 	background-repeat	: no-repeat;
 	background-position	: center center;
 }
@@ -235,21 +243,20 @@ div.container div.content3 div.box1 {
 	background-image	: url(images/icon_contact.png);
 	background-repeat	: no-repeat;
 	background-position	: center center;
+	background-color: #bb5877;
 
 }
 div.container div.content3 div.box2 {
 	width	: 196px;
 	min-height	: 196px;
 	margin-top	: 10px;
-	background-image	: url(images/icon_contact.png);
-	background-repeat	: no-repeat;
-	background-position	: center center;
+	background-color: #16526e;
 }
 div.container div.content3 div.box3 {
 	width	: 196px;
 	min-height	: 196px;
 	margin-top	: 10px;			
-	background-image	: url(images/icon_contact.png);
+	background-image	: url(images/test.jpg);
 	background-repeat	: no-repeat;
 	background-position	: center center;
 }
@@ -260,6 +267,7 @@ div.container div.content3 div.box4 {
 	background-image	: url(images/icon_weather.png);
 	background-repeat	: no-repeat;
 	background-position	: center center;
+	background-color: #4f96b4;
 }
 /*----------------------------*/
 div.container footer {
