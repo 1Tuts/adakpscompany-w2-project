@@ -1,15 +1,4 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-<head>
-	<meta charset="UTF-8">
-	<title></title>
 
-	<link rel="stylesheet" type="text/css" href="1styles.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src='html5shiv.js'></script>
-</head>
-<body>
-	<div class="container cover ">
 		<header class="w24 h23 cover">
 			<div class="w5 h5 mt3 logo"></div>
 			<nav class="menu">
@@ -22,8 +11,8 @@
 							<li><a href="#">grup1</a></li>
 						</menu>
 					</li>
-					<li class="left ml1 mt2"><a href="gallery.html">gallery</a></li>
-					<li class="left ml1 mt2"><a href="about.html">about us</a></li>
+					<li class="left ml1 mt2"><a href="index-gallery.php">gallery</a></li>
+					<li class="left ml1 mt2"><a href="index-about.php">about us</a></li>
 				</menu>
 			</nav>
 			<div><input class="w4 h3 mt5 right search" type="text" placeholder="Search..."></div>
@@ -53,31 +42,4 @@
 
 
 		</div>
-		<div class="left content2">
-			<div class="box1">
-				<div class="image"></div>
-				<div class="text"><a href="#">Gallery</a></div>
-			</div>
-			<div class="box2">
-
-				<div class="image"></div>
-				<div class="text"> We plan innovations to meet tomorrow's requirements. We are the market leaders. This implies an obligation to assume responsibility for the public and the environment. The high quality of our products enhances and creates an atmosphere of well-being for people</div> 
-			</div>
-			<div class="box3"></div>
-			
-		</div>
-		<div class="left content3 ">
-			<div class="box1 cover">
-				<div class="image"></div>
-				<div class="text"><a href="#">Cantact</a></div>
-			</div>
-			<div class="box2"></div>
-			<div class="box3"><div width='196' height='196'><source src="slide/slide.html" style=""></div></source></div>
-			<div class="box4"></div>
-		</div>		
-		<footer class="w24 h4 mt3 left">
-			<p>adakps</p>
-		</footer>
-	</div>
-</body>
-</html>
+		
